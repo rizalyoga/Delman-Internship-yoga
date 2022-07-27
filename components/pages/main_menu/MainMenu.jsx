@@ -22,7 +22,7 @@ const MainMenu = () => {
   };
 
   const toFetchDataPage = () => {
-    router.push("/fetcher");
+    router.push("/fetching");
   };
 
   return (
