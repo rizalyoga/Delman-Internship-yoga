@@ -24,3 +24,20 @@ a {
     background: black;
   }
 }
+
+.container {
+  margin: 0 2rem;
+  /* min-height: 100vh; */
+  /* background: rgb(248, 248, 248); */
+}
+
+.link__div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.line {
+  width: 100%;
+  border: 3px solid red;
+}
