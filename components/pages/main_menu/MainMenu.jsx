@@ -1,13 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import {
-  Box,
-  Center,
-  Flex,
-  Badge,
-  Text,
-  textDecoration,
-} from "@chakra-ui/react";
+import { Box, Center, Flex, Text } from "@chakra-ui/react";
 // Layout
 import Layout from "../../layout/Layout";
 

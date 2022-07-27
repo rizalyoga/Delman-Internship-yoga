@@ -18,8 +18,6 @@ const Navbar = () => {
     router.push("/");
   };
 
-  console.log(router);
-
   const setPath = () => {
     if (router.route == "/change-title") {
       return "Title Transformer";
