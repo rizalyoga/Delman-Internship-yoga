@@ -13,7 +13,7 @@
 <table>
 <tr>
 <td>
-Delman Internship page is the technical-test of the recruitment process for Front-End Engineer Intern in delman.io
+Delman Internship page is the take-home-test of the recruitment process for Front-End Engineer Intern in delman.io
 </td>
 </tr>
 </table>
@@ -28,10 +28,10 @@ To clone and run this website, you'll need [Git](https://git-scm.com) and [Node.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rizalyoga/DelmanInternship-AchmadRIzalYogaswara.git
+$ git clone https://github.com/rizalyoga/Delman-Internship-yoga.git
 
 # Go into the repository
-$ cd DelmanInternship-AchmadRIzalYogaswara
+$ cd Delman-Internship-yoga
 
 # Install dependencies
 $ yarn
