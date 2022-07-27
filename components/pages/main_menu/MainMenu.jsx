@@ -22,13 +22,13 @@ const MainMenu = () => {
   };
 
   const toFetchDataPage = () => {
-    router.push("/fetcher");
+    router.push("/fetching");
   };
 
   return (
     <Layout>
       <div className="container">
-        <Center minH="100vh">
+        <Center minH="90vh">
           <Box p="5" minW={"40%"}>
             <Text textAlign="center" fontSize="2.5rem" fontWeight="bold" mb={5}>
               Internship Program
