@@ -22,18 +22,18 @@ const MainMenu = () => {
     <Layout>
       <div className="container">
         <Center minH="90vh">
-          <Box p="5" minW={"40%"}>
+          <Box p="5" width={"47%"}>
             <Text textAlign="center" fontSize="2.5rem" fontWeight="bold" mb={5}>
               Internship Program
             </Text>
             <hr />
-            <Flex gap="10px" mt={8}>
+            <Flex gap="30px" mt={8}>
               <Box
                 p="20px"
                 minH="150px"
                 flexBasis={"50%"}
-                borderWidth="2px"
-                boxShadow="md"
+                boxShadow="lg"
+                borderWidth="1px"
               >
                 <Text
                   fontSize="1.3rem"
@@ -54,8 +54,8 @@ const MainMenu = () => {
                 p="20px"
                 minH="150px"
                 flexBasis={"50%"}
-                borderWidth="2px"
                 boxShadow="md"
+                borderWidth="1px"
               >
                 <Text
                   fontSize="1.3rem"

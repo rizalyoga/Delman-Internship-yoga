@@ -4,8 +4,6 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 
 const CardUser = ({ data }) => {
-  console.log(data);
-
   const checkGender = () => {
     if (data[0]?.gender === "female") {
       return styles.card__container_female;

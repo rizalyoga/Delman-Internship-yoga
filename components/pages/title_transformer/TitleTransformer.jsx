@@ -63,7 +63,7 @@ const TitleTransformer = () => {
   }, [running]);
 
   return (
-    <Layout>
+    <Layout titlePage={"| User Fetcher"}>
       <div className="container">
         <Center minH="90vh">
           <Box p="5" minW="30%">

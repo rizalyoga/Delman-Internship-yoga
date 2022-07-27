@@ -26,12 +26,18 @@ const Navbar = () => {
     }
   };
 
+  const checkRoute = () => {
+    if (router.route === "/404") {
+      return styles.hidden;
+    }
+  };
+
   return (
     <div className={styles.Navbar__container}>
       <Box className="container">
-        <Flex gap={"10px"} alignItems="center">
+        <Flex gap={"20px"} alignItems="center">
           <Text fontSize="1.5rem">delman.io</Text>
-          <Breadcrumb mt={"4.5px"}>
+          <Breadcrumb mt={"4.5px"} className={checkRoute()}>
             <BreadcrumbItem>
               <BreadcrumbLink onClick={toHome}>
                 Internship Program
