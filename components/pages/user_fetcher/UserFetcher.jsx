@@ -34,7 +34,7 @@ const UserFetcher = () => {
   };
 
   return (
-    <Layout>
+    <Layout titlePage={"| Title Transformer"}>
       <div className="container">
         <Center>
           <Flex
@@ -54,7 +54,7 @@ const UserFetcher = () => {
             )}
             <hr />
             <Button
-              width="300px"
+              width="100%"
               onClick={fetchDataUserHandler}
               disabled={loading ? true : false}
             >

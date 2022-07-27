@@ -26,9 +26,7 @@ a {
 }
 
 .container {
-  margin: 0 2rem;
-  /* min-height: 100vh; */
-  /* background: rgb(248, 248, 248); */
+  margin: 0 1rem;
 }
 
 .link__div {

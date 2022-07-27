@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 const SkeletonLoading = () => {
   return (
-    <Box p="10" maxW="300px" boxShadow="2xl" my="30px">
+    <Box p="10" minW="300px" minH="320px" boxShadow="2xl" my="30px">
       <Flex
         justifyContent={"center"}
         flexDirection="column"
